@@ -4,6 +4,7 @@
 
 /* Implementation of PersonImpl and Person hidden.
  * Can be easily forwarded to any consumer of API without releasing secrets/implementation
+ * prevents recompilation of sources reliant on the header
  */
 struct Person
 {
